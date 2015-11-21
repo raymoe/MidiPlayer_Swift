@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF649341C00E0E2007D8EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */; };
+		CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649351C00E0E2007D8EA1 /* ViewController.swift */; };
+		CBF649391C00E0E2007D8EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF649371C00E0E2007D8EA1 /* Main.storyboard */; };
+		CBF6493B1C00E0E2007D8EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF6493A1C00E0E2007D8EA1 /* Assets.xcassets */; };
+		CBF6493E1C00E0E2007D8EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF6493C1C00E0E2007D8EA1 /* LaunchScreen.storyboard */; };
+		CBF649491C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649481C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift */; };
+		CBF649541C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649531C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF649451C00E0E2007D8EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF649281C00E0E2007D8EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF6492F1C00E0E2007D8EA1;
+			remoteInfo = MidiPlayer_Swift;
+		};
+		CBF649501C00E0E2007D8EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF649281C00E0E2007D8EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF6492F1C00E0E2007D8EA1;
+			remoteInfo = MidiPlayer_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF649301C00E0E2007D8EA1 /* MidiPlayer_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiPlayer_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBF649351C00E0E2007D8EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBF649381C00E0E2007D8EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBF6493A1C00E0E2007D8EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF6493D1C00E0E2007D8EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF6493F1C00E0E2007D8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF649441C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiPlayer_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF649481C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiPlayer_SwiftTests.swift; sourceTree = "<group>"; };
+		CBF6494A1C00E0E2007D8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF6494F1C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiPlayer_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF649531C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiPlayer_SwiftUITests.swift; sourceTree = "<group>"; };
+		CBF649551C00E0E2007D8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF6492D1C00E0E2007D8EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF649411C00E0E2007D8EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF6494C1C00E0E2007D8EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF649271C00E0E2007D8EA1 = {
+			isa = PBXGroup;
+			children = (
+				CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */,
+				CBF649471C00E0E2007D8EA1 /* MidiPlayer_SwiftTests */,
+				CBF649521C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests */,
+				CBF649311C00E0E2007D8EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF649311C00E0E2007D8EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF649301C00E0E2007D8EA1 /* MidiPlayer_Swift.app */,
+				CBF649441C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.xctest */,
+				CBF6494F1C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */,
+				CBF649351C00E0E2007D8EA1 /* ViewController.swift */,
+				CBF649371C00E0E2007D8EA1 /* Main.storyboard */,
+				CBF6493A1C00E0E2007D8EA1 /* Assets.xcassets */,
+				CBF6493C1C00E0E2007D8EA1 /* LaunchScreen.storyboard */,
+				CBF6493F1C00E0E2007D8EA1 /* Info.plist */,
+			);
+			path = MidiPlayer_Swift;
+			sourceTree = "<group>";
+		};
+		CBF649471C00E0E2007D8EA1 /* MidiPlayer_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF649481C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift */,
+				CBF6494A1C00E0E2007D8EA1 /* Info.plist */,
+			);
+			path = MidiPlayer_SwiftTests;
+			sourceTree = "<group>";
+		};
+		CBF649521C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF649531C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift */,
+				CBF649551C00E0E2007D8EA1 /* Info.plist */,
+			);
+			path = MidiPlayer_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF6492F1C00E0E2007D8EA1 /* MidiPlayer_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF649581C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_Swift" */;
+			buildPhases = (
+				CBF6492C1C00E0E2007D8EA1 /* Sources */,
+				CBF6492D1C00E0E2007D8EA1 /* Frameworks */,
+				CBF6492E1C00E0E2007D8EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiPlayer_Swift;
+			productName = MidiPlayer_Swift;
+			productReference = CBF649301C00E0E2007D8EA1 /* MidiPlayer_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF649431C00E0E2007D8EA1 /* MidiPlayer_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF6495B1C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_SwiftTests" */;
+			buildPhases = (
+				CBF649401C00E0E2007D8EA1 /* Sources */,
+				CBF649411C00E0E2007D8EA1 /* Frameworks */,
+				CBF649421C00E0E2007D8EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF649461C00E0E2007D8EA1 /* PBXTargetDependency */,
+			);
+			name = MidiPlayer_SwiftTests;
+			productName = MidiPlayer_SwiftTests;
+			productReference = CBF649441C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF6494E1C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF6495E1C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_SwiftUITests" */;
+			buildPhases = (
+				CBF6494B1C00E0E2007D8EA1 /* Sources */,
+				CBF6494C1C00E0E2007D8EA1 /* Frameworks */,
+				CBF6494D1C00E0E2007D8EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF649511C00E0E2007D8EA1 /* PBXTargetDependency */,
+			);
+			name = MidiPlayer_SwiftUITests;
+			productName = MidiPlayer_SwiftUITests;
+			productReference = CBF6494F1C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF649281C00E0E2007D8EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhou;
+				TargetAttributes = {
+					CBF6492F1C00E0E2007D8EA1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CBF649431C00E0E2007D8EA1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CBF6492F1C00E0E2007D8EA1;
+					};
+					CBF6494E1C00E0E2007D8EA1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CBF6492F1C00E0E2007D8EA1;
+					};
+				};
+			};
+			buildConfigurationList = CBF6492B1C00E0E2007D8EA1 /* Build configuration list for PBXProject "MidiPlayer_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF649271C00E0E2007D8EA1;
+			productRefGroup = CBF649311C00E0E2007D8EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF6492F1C00E0E2007D8EA1 /* MidiPlayer_Swift */,
+				CBF649431C00E0E2007D8EA1 /* MidiPlayer_SwiftTests */,
+				CBF6494E1C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF6492E1C00E0E2007D8EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF6493E1C00E0E2007D8EA1 /* LaunchScreen.storyboard in Resources */,
+				CBF6493B1C00E0E2007D8EA1 /* Assets.xcassets in Resources */,
+				CBF649391C00E0E2007D8EA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF649421C00E0E2007D8EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF6494D1C00E0E2007D8EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF6492C1C00E0E2007D8EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */,
+				CBF649341C00E0E2007D8EA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF649401C00E0E2007D8EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF649491C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF6494B1C00E0E2007D8EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF649541C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF649461C00E0E2007D8EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF6492F1C00E0E2007D8EA1 /* MidiPlayer_Swift */;
+			targetProxy = CBF649451C00E0E2007D8EA1 /* PBXContainerItemProxy */;
+		};
+		CBF649511C00E0E2007D8EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF6492F1C00E0E2007D8EA1 /* MidiPlayer_Swift */;
+			targetProxy = CBF649501C00E0E2007D8EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF649371C00E0E2007D8EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF649381C00E0E2007D8EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF6493C1C00E0E2007D8EA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF6493D1C00E0E2007D8EA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF649561C00E0E2007D8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBF649571C00E0E2007D8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF649591C00E0E2007D8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MidiPlayer_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBF6495A1C00E0E2007D8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MidiPlayer_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBF6495C1C00E0E2007D8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MidiPlayer_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidiPlayer_Swift.app/MidiPlayer_Swift";
+			};
+			name = Debug;
+		};
+		CBF6495D1C00E0E2007D8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MidiPlayer_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidiPlayer_Swift.app/MidiPlayer_Swift";
+			};
+			name = Release;
+		};
+		CBF6495F1C00E0E2007D8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MidiPlayer_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MidiPlayer_Swift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CBF649601C00E0E2007D8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MidiPlayer_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MidiPlayer_Swift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF6492B1C00E0E2007D8EA1 /* Build configuration list for PBXProject "MidiPlayer_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF649561C00E0E2007D8EA1 /* Debug */,
+				CBF649571C00E0E2007D8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF649581C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF649591C00E0E2007D8EA1 /* Debug */,
+				CBF6495A1C00E0E2007D8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF6495B1C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF6495C1C00E0E2007D8EA1 /* Debug */,
+				CBF6495D1C00E0E2007D8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBF6495E1C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF6495F1C00E0E2007D8EA1 /* Debug */,
+				CBF649601C00E0E2007D8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF649281C00E0E2007D8EA1 /* Project object */;
+}
