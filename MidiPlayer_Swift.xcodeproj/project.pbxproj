@@ -14,6 +14,33 @@
 		CBF6493E1C00E0E2007D8EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF6493C1C00E0E2007D8EA1 /* LaunchScreen.storyboard */; };
 		CBF649491C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649481C00E0E2007D8EA1 /* MidiPlayer_SwiftTests.swift */; };
 		CBF649541C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649531C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift */; };
+		CBF649801C00E172007D8EA1 /* first_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649621C00E172007D8EA1 /* first_normal.png */; };
+		CBF649811C00E172007D8EA1 /* first_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649631C00E172007D8EA1 /* first_normal@2x.png */; };
+		CBF649821C00E172007D8EA1 /* first_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649641C00E172007D8EA1 /* first_selected.png */; };
+		CBF649831C00E172007D8EA1 /* first_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649651C00E172007D8EA1 /* first_selected@2x.png */; };
+		CBF649841C00E172007D8EA1 /* navigationbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649661C00E172007D8EA1 /* navigationbar_background.png */; };
+		CBF649851C00E172007D8EA1 /* navigationbar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649671C00E172007D8EA1 /* navigationbar_background@2x.png */; };
+		CBF649861C00E172007D8EA1 /* navigationbar_background_tall.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649681C00E172007D8EA1 /* navigationbar_background_tall.png */; };
+		CBF649871C00E172007D8EA1 /* navigationbar_background_tall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649691C00E172007D8EA1 /* navigationbar_background_tall@2x.png */; };
+		CBF649881C00E172007D8EA1 /* second_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF6496A1C00E172007D8EA1 /* second_normal.png */; };
+		CBF649891C00E172007D8EA1 /* second_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF6496B1C00E172007D8EA1 /* second_normal@2x.png */; };
+		CBF6498A1C00E172007D8EA1 /* second_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF6496C1C00E172007D8EA1 /* second_selected.png */; };
+		CBF6498B1C00E172007D8EA1 /* second_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF6496D1C00E172007D8EA1 /* second_selected@2x.png */; };
+		CBF6498C1C00E172007D8EA1 /* tabbar_normal_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF6496E1C00E172007D8EA1 /* tabbar_normal_background.png */; };
+		CBF6498D1C00E172007D8EA1 /* tabbar_normal_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF6496F1C00E172007D8EA1 /* tabbar_normal_background@2x.png */; };
+		CBF6498E1C00E172007D8EA1 /* tabbar_selected_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649701C00E172007D8EA1 /* tabbar_selected_background.png */; };
+		CBF6498F1C00E172007D8EA1 /* tabbar_selected_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649711C00E172007D8EA1 /* tabbar_selected_background@2x.png */; };
+		CBF649901C00E172007D8EA1 /* third_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649721C00E172007D8EA1 /* third_normal.png */; };
+		CBF649911C00E172007D8EA1 /* third_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649731C00E172007D8EA1 /* third_normal@2x.png */; };
+		CBF649921C00E172007D8EA1 /* third_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649741C00E172007D8EA1 /* third_selected.png */; };
+		CBF649931C00E172007D8EA1 /* third_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649751C00E172007D8EA1 /* third_selected@2x.png */; };
+		CBF649941C00E172007D8EA1 /* MidiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649771C00E172007D8EA1 /* MidiFile.swift */; };
+		CBF649951C00E172007D8EA1 /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649781C00E172007D8EA1 /* MidiTrack.swift */; };
+		CBF649961C00E172007D8EA1 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497B1C00E172007D8EA1 /* RDVTabBar.m */; };
+		CBF649971C00E172007D8EA1 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497D1C00E172007D8EA1 /* RDVTabBarController.m */; };
+		CBF649981C00E172007D8EA1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497F1C00E172007D8EA1 /* RDVTabBarItem.m */; };
+		CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */; };
+		CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +74,36 @@
 		CBF6494F1C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiPlayer_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF649531C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiPlayer_SwiftUITests.swift; sourceTree = "<group>"; };
 		CBF649551C00E0E2007D8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF649621C00E172007D8EA1 /* first_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_normal.png; sourceTree = "<group>"; };
+		CBF649631C00E172007D8EA1 /* first_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first_normal@2x.png"; sourceTree = "<group>"; };
+		CBF649641C00E172007D8EA1 /* first_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_selected.png; sourceTree = "<group>"; };
+		CBF649651C00E172007D8EA1 /* first_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first_selected@2x.png"; sourceTree = "<group>"; };
+		CBF649661C00E172007D8EA1 /* navigationbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_background.png; sourceTree = "<group>"; };
+		CBF649671C00E172007D8EA1 /* navigationbar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_background@2x.png"; sourceTree = "<group>"; };
+		CBF649681C00E172007D8EA1 /* navigationbar_background_tall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_background_tall.png; sourceTree = "<group>"; };
+		CBF649691C00E172007D8EA1 /* navigationbar_background_tall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_background_tall@2x.png"; sourceTree = "<group>"; };
+		CBF6496A1C00E172007D8EA1 /* second_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_normal.png; sourceTree = "<group>"; };
+		CBF6496B1C00E172007D8EA1 /* second_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second_normal@2x.png"; sourceTree = "<group>"; };
+		CBF6496C1C00E172007D8EA1 /* second_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_selected.png; sourceTree = "<group>"; };
+		CBF6496D1C00E172007D8EA1 /* second_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second_selected@2x.png"; sourceTree = "<group>"; };
+		CBF6496E1C00E172007D8EA1 /* tabbar_normal_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_normal_background.png; sourceTree = "<group>"; };
+		CBF6496F1C00E172007D8EA1 /* tabbar_normal_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_normal_background@2x.png"; sourceTree = "<group>"; };
+		CBF649701C00E172007D8EA1 /* tabbar_selected_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_selected_background.png; sourceTree = "<group>"; };
+		CBF649711C00E172007D8EA1 /* tabbar_selected_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_selected_background@2x.png"; sourceTree = "<group>"; };
+		CBF649721C00E172007D8EA1 /* third_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_normal.png; sourceTree = "<group>"; };
+		CBF649731C00E172007D8EA1 /* third_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third_normal@2x.png"; sourceTree = "<group>"; };
+		CBF649741C00E172007D8EA1 /* third_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_selected.png; sourceTree = "<group>"; };
+		CBF649751C00E172007D8EA1 /* third_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third_selected@2x.png"; sourceTree = "<group>"; };
+		CBF649771C00E172007D8EA1 /* MidiFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiFile.swift; sourceTree = "<group>"; };
+		CBF649781C00E172007D8EA1 /* MidiTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTrack.swift; sourceTree = "<group>"; };
+		CBF6497A1C00E172007D8EA1 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		CBF6497B1C00E172007D8EA1 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		CBF6497C1C00E172007D8EA1 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		CBF6497D1C00E172007D8EA1 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		CBF6497E1C00E172007D8EA1 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		CBF6497F1C00E172007D8EA1 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +154,11 @@
 		CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */,
+				CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */,
+				CBF649611C00E172007D8EA1 /* Images */,
+				CBF649761C00E172007D8EA1 /* Midi */,
+				CBF649791C00E172007D8EA1 /* RDVTabBarController */,
 				CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */,
 				CBF649351C00E0E2007D8EA1 /* ViewController.swift */,
 				CBF649371C00E0E2007D8EA1 /* Main.storyboard */,
@@ -123,6 +185,55 @@
 				CBF649551C00E0E2007D8EA1 /* Info.plist */,
 			);
 			path = MidiPlayer_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		CBF649611C00E172007D8EA1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CBF649621C00E172007D8EA1 /* first_normal.png */,
+				CBF649631C00E172007D8EA1 /* first_normal@2x.png */,
+				CBF649641C00E172007D8EA1 /* first_selected.png */,
+				CBF649651C00E172007D8EA1 /* first_selected@2x.png */,
+				CBF649661C00E172007D8EA1 /* navigationbar_background.png */,
+				CBF649671C00E172007D8EA1 /* navigationbar_background@2x.png */,
+				CBF649681C00E172007D8EA1 /* navigationbar_background_tall.png */,
+				CBF649691C00E172007D8EA1 /* navigationbar_background_tall@2x.png */,
+				CBF6496A1C00E172007D8EA1 /* second_normal.png */,
+				CBF6496B1C00E172007D8EA1 /* second_normal@2x.png */,
+				CBF6496C1C00E172007D8EA1 /* second_selected.png */,
+				CBF6496D1C00E172007D8EA1 /* second_selected@2x.png */,
+				CBF6496E1C00E172007D8EA1 /* tabbar_normal_background.png */,
+				CBF6496F1C00E172007D8EA1 /* tabbar_normal_background@2x.png */,
+				CBF649701C00E172007D8EA1 /* tabbar_selected_background.png */,
+				CBF649711C00E172007D8EA1 /* tabbar_selected_background@2x.png */,
+				CBF649721C00E172007D8EA1 /* third_normal.png */,
+				CBF649731C00E172007D8EA1 /* third_normal@2x.png */,
+				CBF649741C00E172007D8EA1 /* third_selected.png */,
+				CBF649751C00E172007D8EA1 /* third_selected@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CBF649761C00E172007D8EA1 /* Midi */ = {
+			isa = PBXGroup;
+			children = (
+				CBF649771C00E172007D8EA1 /* MidiFile.swift */,
+				CBF649781C00E172007D8EA1 /* MidiTrack.swift */,
+			);
+			path = Midi;
+			sourceTree = "<group>";
+		};
+		CBF649791C00E172007D8EA1 /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CBF6497A1C00E172007D8EA1 /* RDVTabBar.h */,
+				CBF6497B1C00E172007D8EA1 /* RDVTabBar.m */,
+				CBF6497C1C00E172007D8EA1 /* RDVTabBarController.h */,
+				CBF6497D1C00E172007D8EA1 /* RDVTabBarController.m */,
+				CBF6497E1C00E172007D8EA1 /* RDVTabBarItem.h */,
+				CBF6497F1C00E172007D8EA1 /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +340,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF6498A1C00E172007D8EA1 /* second_selected.png in Resources */,
+				CBF6498B1C00E172007D8EA1 /* second_selected@2x.png in Resources */,
+				CBF649901C00E172007D8EA1 /* third_normal.png in Resources */,
+				CBF6498F1C00E172007D8EA1 /* tabbar_selected_background@2x.png in Resources */,
+				CBF6498E1C00E172007D8EA1 /* tabbar_selected_background.png in Resources */,
+				CBF6498C1C00E172007D8EA1 /* tabbar_normal_background.png in Resources */,
+				CBF649921C00E172007D8EA1 /* third_selected.png in Resources */,
 				CBF6493E1C00E0E2007D8EA1 /* LaunchScreen.storyboard in Resources */,
 				CBF6493B1C00E0E2007D8EA1 /* Assets.xcassets in Resources */,
+				CBF649911C00E172007D8EA1 /* third_normal@2x.png in Resources */,
+				CBF649861C00E172007D8EA1 /* navigationbar_background_tall.png in Resources */,
+				CBF649871C00E172007D8EA1 /* navigationbar_background_tall@2x.png in Resources */,
+				CBF649811C00E172007D8EA1 /* first_normal@2x.png in Resources */,
+				CBF649841C00E172007D8EA1 /* navigationbar_background.png in Resources */,
+				CBF649821C00E172007D8EA1 /* first_selected.png in Resources */,
+				CBF649851C00E172007D8EA1 /* navigationbar_background@2x.png in Resources */,
+				CBF649881C00E172007D8EA1 /* second_normal.png in Resources */,
+				CBF6498D1C00E172007D8EA1 /* tabbar_normal_background@2x.png in Resources */,
+				CBF649891C00E172007D8EA1 /* second_normal@2x.png in Resources */,
+				CBF649831C00E172007D8EA1 /* first_selected@2x.png in Resources */,
+				CBF649931C00E172007D8EA1 /* third_selected@2x.png in Resources */,
 				CBF649391C00E0E2007D8EA1 /* Main.storyboard in Resources */,
+				CBF649801C00E172007D8EA1 /* first_normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +388,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */,
+				CBF649941C00E172007D8EA1 /* MidiFile.swift in Sources */,
+				CBF649951C00E172007D8EA1 /* MidiTrack.swift in Sources */,
+				CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */,
+				CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */,
+				CBF649961C00E172007D8EA1 /* RDVTabBar.m in Sources */,
+				CBF649971C00E172007D8EA1 /* RDVTabBarController.m in Sources */,
 				CBF649341C00E0E2007D8EA1 /* AppDelegate.swift in Sources */,
+				CBF649981C00E172007D8EA1 /* RDVTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MidiObjc.h;
 			};
 			name = Debug;
 		};
@@ -414,6 +553,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MidiObjc.h;
 			};
 			name = Release;
 		};
