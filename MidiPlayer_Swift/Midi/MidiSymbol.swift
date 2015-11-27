@@ -1,9 +1,9 @@
 //
-//  SecondViewController.swift
-//  Midi_Swift
+//  MidiSymbol.swift
+//  MidiPlayer_Swift
 //
-//  Created by zhou on 15/11/20.
-//  Copyright (c) 2015年 zhou. All rights reserved.
+//  Created by zhou on 15/11/22.
+//  Copyright © 2015年 zhou. All rights reserved.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,30 +23,27 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import UIKit
+import Foundation
 
-class SecondViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+protocol MusicSymbol
+{
+    var startTime : Int{ get set }
+    var minWidth : Int { get set }
+    var width : Int { get set }
+    var aboveStaff : Int { get set }
+    var belowStaff : Int { get set }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    func draw(ytop:Int)
 }
+
+//public class ChordSymbol : MusicSymbol
+//{
+//    public var clef : Int
+//    
+//    public var endTime : Int
+//    
+//    public var hasTwoStems : Bool
+//    
+//    
+//    
+//}
