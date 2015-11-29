@@ -25,6 +25,7 @@
 
 import Foundation
 import Darwin
+import MoeBase
 
 public enum NoteDuration : Int
 {
@@ -39,6 +40,7 @@ public enum NoteDuration : Int
     case DottedHalf
     case Whole
 }
+
 
 
 //let ThirtySecond     = 0
@@ -308,6 +310,125 @@ public class Stem
     }
 }
 
+public struct LyricSymbol
+{
+    public var startTime:Int = 0
+    public var text:String = ""
+    public var x:Int = 0
+    public var minWidth:Int
+        {
+        get{
+            let widthPerChar:Float = 10.0*2.0/3.0
+            var width = Float(text.length) * widthPerChar
+            var range = text.rangeOfString("i")
+            if (range != nil) {
+                width -= widthPerChar/2.0
+            }
+            range = text.rangeOfString("j")
+            if(range != nil) {
+                width -= widthPerChar/2.0
+            }
+            range = text.rangeOfString("l")
+            if(range != nil) {
+                width -= widthPerChar/2.0
+            }
+            return Int(width)
+        }
+    }
+    
+    public var description:String
+        {
+            return "Lyric start=\(startTime) x=\(x) text=\(text)"
+    }
+    
+    public init()
+    {
+        
+    }
+    
+    
+}
+
+public class MidiEvent
+{
+    public var deltaTime : Int = 0
+    public var startTime : Int = 0
+    public var hasEventFlag : Bool  = false
+    public var eventFlag : u_char = 0
+    public var channel: u_char = 0
+    public var noteNumber : u_char = 0
+    public var velocity : u_char = 0
+    public var instrument : u_char = 0
+    public var keyPressure : u_char = 0
+    public var chanPressure : u_char = 0
+    public var denominator : u_char = 0
+    public var tempo : Int = 0
+    public var metaEvent : u_char = 0
+    //public var metaValue : UnsafeBufferPointer<u_char> = nil
+}
+
+public class MidiNote
+{
+    public var startTime:Int = 0
+    public var channel:Int = 0
+    public var number:Int = 0
+    public var duration:Int = 0
+    public var endTime:Int = 0
+    public init(startTime:Int,channel:Int,number:Int,duration:Int,endTime:Int )
+    {
+        self.startTime = startTime
+        self.number = number
+        self.duration = duration
+        self.endTime = endTime
+    }
+    public init()
+    {
+        
+    }
+    
+    public init(note:MidiNote)
+    {
+        startTime = note.startTime
+        number = note.startTime
+        duration = note.duration
+        endTime = note.endTime
+    }
+    
+    public func noteOff(endtime:Int)
+    {
+        duration = endTime - startTime
+    }
+    
+    
+    public func description() -> String
+    {
+        return "MidiNote channel=\(channel) number=\(number) start=\(startTime) duration=\(duration)"
+    }
+}
+
+
+public struct MidiTrack {
+    var  number:Int = 0
+    var  instrument:Int = 0
+    var  notes : [MidiNote]?
+    var  lyrics : [MidiEvent]?
+    public init(tracknum:Int) {
+        number = tracknum
+        notes = [MidiNote]()
+        instrument = 0
+    }
+    
+    public init(events:[MidiEvent],tracknum:Int)
+    {
+        number = tracknum
+        notes = [MidiNote]()
+    }
+    
+    public  func copyWithZone(zone: NSZone) -> AnyObject {
+        return ""
+    }
+}
+
 
 //func enventName(ev:Int)->
 
@@ -318,16 +439,35 @@ public class Stem
 //        
 //    }
 //}
-//
+
+let EventNoteOff         = 0x80
+let EventNoteOn          = 0x90
+let EventKeyPressure     = 0xA0
+let EventControlChange   = 0xB0
+let EventProgramChange   = 0xC0
+let EventChannelPressure = 0xD0
+let EventPitchBend       = 0xE0
+let SysexEvent1          = 0xF0
+let SysexEvent2          = 0xF7
+let MetaEvent            = 0xFF
+
+let MetaEventSequence     = 0x0
+let MetaEventText         = 0x1
+let MetaEventCopyright    = 0x2
+let MetaEventSequenceName = 0x3
+let MetaEventInstrument   = 0x4
+let MetaEventLyric        = 0x5
+let MetaEventMarker       = 0x6
+let MetaEventEndOfTrack   = 0x2F
+let MetaEventTempo        = 0x51
+let MetaEventSMPTEOffset  = 0x54
+let MetaEventTimeSignature = 0x58
+let MetaEventKeySignature  = 0x59
+
+
+
 //public class MidiFile
 //{
-//    public init(path:String){
-//        let  name = path.cStringUsingEncoding(NSUTF8StringEncoding)
-//        var fd = open(name!, O_RDONLY)
-//        if fd == -1{
-//            
-//        }
-//        struct stat info;
-//        stat(name,&info)
-//    }
+//    public var fileName : String
+//    
 //}

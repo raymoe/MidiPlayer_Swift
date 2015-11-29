@@ -34,17 +34,12 @@
 		CBF649911C00E172007D8EA1 /* third_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649731C00E172007D8EA1 /* third_normal@2x.png */; };
 		CBF649921C00E172007D8EA1 /* third_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649741C00E172007D8EA1 /* third_selected.png */; };
 		CBF649931C00E172007D8EA1 /* third_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF649751C00E172007D8EA1 /* third_selected@2x.png */; };
-		CBF649941C00E172007D8EA1 /* MidiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649771C00E172007D8EA1 /* MidiFile.swift */; };
-		CBF649951C00E172007D8EA1 /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649781C00E172007D8EA1 /* MidiTrack.swift */; };
 		CBF649961C00E172007D8EA1 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497B1C00E172007D8EA1 /* RDVTabBar.m */; };
 		CBF649971C00E172007D8EA1 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497D1C00E172007D8EA1 /* RDVTabBarController.m */; };
 		CBF649981C00E172007D8EA1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497F1C00E172007D8EA1 /* RDVTabBarItem.m */; };
 		CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */; };
 		CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */; };
-		CBF649A01C016261007D8EA1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6499F1C016261007D8EA1 /* StringExtensions.swift */; };
-		CBF649A21C018A57007D8EA1 /* MidiSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649A11C018A57007D8EA1 /* MidiSymbol.swift */; };
-		CBF649A81C020BF5007D8EA1 /* MidiFileException.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF649A71C020BF5007D8EA1 /* MidiFileException.m */; };
-		CBF649AD1C089397007D8EA1 /* MidiFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF649AC1C089397007D8EA1 /* MidiFileReader.m */; };
+		CBF649DB1C09DF6B007D8EA1 /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,8 +93,6 @@
 		CBF649731C00E172007D8EA1 /* third_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third_normal@2x.png"; sourceTree = "<group>"; };
 		CBF649741C00E172007D8EA1 /* third_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_selected.png; sourceTree = "<group>"; };
 		CBF649751C00E172007D8EA1 /* third_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third_selected@2x.png"; sourceTree = "<group>"; };
-		CBF649771C00E172007D8EA1 /* MidiFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiFile.swift; sourceTree = "<group>"; };
-		CBF649781C00E172007D8EA1 /* MidiTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTrack.swift; sourceTree = "<group>"; };
 		CBF6497A1C00E172007D8EA1 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
 		CBF6497B1C00E172007D8EA1 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
 		CBF6497C1C00E172007D8EA1 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
@@ -108,12 +101,7 @@
 		CBF6497F1C00E172007D8EA1 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
 		CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		CBF6499F1C016261007D8EA1 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		CBF649A11C018A57007D8EA1 /* MidiSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiSymbol.swift; sourceTree = "<group>"; };
-		CBF649A61C020BF5007D8EA1 /* MidiFileException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFileException.h; sourceTree = "<group>"; };
-		CBF649A71C020BF5007D8EA1 /* MidiFileException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiFileException.m; sourceTree = "<group>"; };
-		CBF649AA1C020CD5007D8EA1 /* MidiFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFileReader.h; sourceTree = "<group>"; };
-		CBF649AC1C089397007D8EA1 /* MidiFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiFileReader.m; sourceTree = "<group>"; };
+		CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoeBase.framework; path = "Build/Products/Debug-iphonesimulator/MoeBase.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF649DB1C09DF6B007D8EA1 /* MoeBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +133,7 @@
 		CBF649271C00E0E2007D8EA1 = {
 			isa = PBXGroup;
 			children = (
+				CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */,
 				CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */,
 				CBF649471C00E0E2007D8EA1 /* MidiPlayer_SwiftTests */,
 				CBF649521C00E0E2007D8EA1 /* MidiPlayer_SwiftUITests */,
@@ -164,11 +154,9 @@
 		CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				CBF6499F1C016261007D8EA1 /* StringExtensions.swift */,
 				CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */,
 				CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */,
 				CBF649611C00E172007D8EA1 /* Images */,
-				CBF649761C00E172007D8EA1 /* Midi */,
 				CBF649791C00E172007D8EA1 /* RDVTabBarController */,
 				CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */,
 				CBF649351C00E0E2007D8EA1 /* ViewController.swift */,
@@ -223,20 +211,6 @@
 				CBF649751C00E172007D8EA1 /* third_selected@2x.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		CBF649761C00E172007D8EA1 /* Midi */ = {
-			isa = PBXGroup;
-			children = (
-				CBF649AC1C089397007D8EA1 /* MidiFileReader.m */,
-				CBF649A61C020BF5007D8EA1 /* MidiFileException.h */,
-				CBF649A71C020BF5007D8EA1 /* MidiFileException.m */,
-				CBF649771C00E172007D8EA1 /* MidiFile.swift */,
-				CBF649781C00E172007D8EA1 /* MidiTrack.swift */,
-				CBF649A11C018A57007D8EA1 /* MidiSymbol.swift */,
-				CBF649AA1C020CD5007D8EA1 /* MidiFileReader.h */,
-			);
-			path = Midi;
 			sourceTree = "<group>";
 		};
 		CBF649791C00E172007D8EA1 /* RDVTabBarController */ = {
@@ -404,13 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */,
-				CBF649A21C018A57007D8EA1 /* MidiSymbol.swift in Sources */,
-				CBF649941C00E172007D8EA1 /* MidiFile.swift in Sources */,
-				CBF649A01C016261007D8EA1 /* StringExtensions.swift in Sources */,
-				CBF649AD1C089397007D8EA1 /* MidiFileReader.m in Sources */,
-				CBF649951C00E172007D8EA1 /* MidiTrack.swift in Sources */,
 				CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */,
-				CBF649A81C020BF5007D8EA1 /* MidiFileException.m in Sources */,
 				CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */,
 				CBF649961C00E172007D8EA1 /* RDVTabBar.m in Sources */,
 				CBF649971C00E172007D8EA1 /* RDVTabBarController.m in Sources */,
@@ -557,6 +525,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = MidiPlayer_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
@@ -569,6 +541,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = MidiPlayer_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
@@ -644,6 +620,7 @@
 				CBF6495A1C00E0E2007D8EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF6495B1C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -652,6 +629,7 @@
 				CBF6495D1C00E0E2007D8EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF6495E1C00E0E2007D8EA1 /* Build configuration list for PBXNativeTarget "MidiPlayer_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -660,6 +638,7 @@
 				CBF649601C00E0E2007D8EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

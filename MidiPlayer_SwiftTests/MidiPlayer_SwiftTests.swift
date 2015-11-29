@@ -26,6 +26,20 @@ class MidiPlayer_SwiftTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testArray() {
+        let start = CFAbsoluteTimeGetCurrent()
+        let m = 100000000
+        var list : [Int] = [Int](count: m, repeatedValue: 0)
+        for i in 1...m-1
+        {
+            list[i] = i
+        }
+        let t1 = CFAbsoluteTimeGetCurrent()
+        list.insert(0, atIndex: m/2)
+        print(CFAbsoluteTimeGetCurrent()-t1)
+        print(CFAbsoluteTimeGetCurrent()-start)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock {
