@@ -11,6 +11,7 @@
 		CBF649D21C09D950007D8EA1 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649D01C09D950007D8EA1 /* LinkList.swift */; };
 		CBF649D31C09D950007D8EA1 /* LinkListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649D11C09D950007D8EA1 /* LinkListNode.swift */; };
 		CBF64A041C09E5D7007D8EA1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A031C09E5D7007D8EA1 /* StringExtensions.swift */; };
+		CBF64A081C0A9571007D8EA1 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A071C0A9571007D8EA1 /* IntExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CBF649D01C09D950007D8EA1 /* LinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		CBF649D11C09D950007D8EA1 /* LinkListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkListNode.swift; sourceTree = "<group>"; };
 		CBF64A031C09E5D7007D8EA1 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		CBF64A071C0A9571007D8EA1 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				CBF64A031C09E5D7007D8EA1 /* StringExtensions.swift */,
+				CBF64A071C0A9571007D8EA1 /* IntExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF64A041C09E5D7007D8EA1 /* StringExtensions.swift in Sources */,
+				CBF64A081C0A9571007D8EA1 /* IntExtensions.swift in Sources */,
 				CBF649D21C09D950007D8EA1 /* LinkList.swift in Sources */,
 				CBF649D31C09D950007D8EA1 /* LinkListNode.swift in Sources */,
 			);

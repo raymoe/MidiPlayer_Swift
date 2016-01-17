@@ -7,29 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB5EF6721C140AA1003632C0 /* MidiEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5EF6711C140AA1003632C0 /* MidiEvent.swift */; };
+		CB5EF6741C16F0B7003632C0 /* MidiFileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5EF6731C16F0B7003632C0 /* MidiFileError.swift */; };
 		CBF649EA1C09E395007D8EA1 /* MoeMidi.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF649E91C09E395007D8EA1 /* MoeMidi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF649F91C09E51B007D8EA1 /* MidiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F21C09E51B007D8EA1 /* MidiFile.swift */; };
-		CBF649FA1C09E51B007D8EA1 /* MidiFileException.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF649F31C09E51B007D8EA1 /* MidiFileException.h */; };
-		CBF649FB1C09E51B007D8EA1 /* MidiFileException.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F41C09E51B007D8EA1 /* MidiFileException.m */; };
-		CBF649FC1C09E51B007D8EA1 /* MidiFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF649F51C09E51B007D8EA1 /* MidiFileReader.h */; };
-		CBF649FD1C09E51B007D8EA1 /* MidiFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F61C09E51B007D8EA1 /* MidiFileReader.m */; };
-		CBF649FE1C09E51B007D8EA1 /* MidiSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F71C09E51B007D8EA1 /* MidiSymbol.swift */; };
 		CBF649FF1C09E51B007D8EA1 /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F81C09E51B007D8EA1 /* MidiTrack.swift */; };
 		CBF64A061C09E5FB007D8EA1 /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF64A051C09E5FB007D8EA1 /* MoeBase.framework */; };
+		CBF64A1F1C0B0BA4007D8EA1 /* MidiFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A1E1C0B0BA4007D8EA1 /* MidiFileReader.swift */; };
+		CBF64A211C0E015E007D8EA1 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A201C0E015E007D8EA1 /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB5EF6711C140AA1003632C0 /* MidiEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiEvent.swift; sourceTree = "<group>"; };
+		CB5EF6731C16F0B7003632C0 /* MidiFileError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiFileError.swift; sourceTree = "<group>"; };
 		CBF649E61C09E395007D8EA1 /* MoeMidi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoeMidi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF649E91C09E395007D8EA1 /* MoeMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoeMidi.h; sourceTree = "<group>"; };
 		CBF649EB1C09E395007D8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF649F21C09E51B007D8EA1 /* MidiFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiFile.swift; sourceTree = "<group>"; };
-		CBF649F31C09E51B007D8EA1 /* MidiFileException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFileException.h; sourceTree = "<group>"; };
-		CBF649F41C09E51B007D8EA1 /* MidiFileException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiFileException.m; sourceTree = "<group>"; };
-		CBF649F51C09E51B007D8EA1 /* MidiFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFileReader.h; sourceTree = "<group>"; };
-		CBF649F61C09E51B007D8EA1 /* MidiFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiFileReader.m; sourceTree = "<group>"; };
-		CBF649F71C09E51B007D8EA1 /* MidiSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiSymbol.swift; sourceTree = "<group>"; };
 		CBF649F81C09E51B007D8EA1 /* MidiTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTrack.swift; sourceTree = "<group>"; };
 		CBF64A051C09E5FB007D8EA1 /* MoeBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoeBase.framework; path = "Build/Products/Debug-iphonesimulator/MoeBase.framework"; sourceTree = "<group>"; };
+		CBF64A131C0AFE46007D8EA1 /* MoeMidiObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoeMidiObjc.h; sourceTree = "<group>"; };
+		CBF64A1E1C0B0BA4007D8EA1 /* MidiFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiFileReader.swift; sourceTree = "<group>"; };
+		CBF64A201C0E015E007D8EA1 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +66,7 @@
 				CBF649F11C09E51B007D8EA1 /* Midi */,
 				CBF649E91C09E395007D8EA1 /* MoeMidi.h */,
 				CBF649EB1C09E395007D8EA1 /* Info.plist */,
+				CBF64A131C0AFE46007D8EA1 /* MoeMidiObjc.h */,
 			);
 			path = MoeMidi;
 			sourceTree = "<group>";
@@ -75,12 +75,11 @@
 			isa = PBXGroup;
 			children = (
 				CBF649F21C09E51B007D8EA1 /* MidiFile.swift */,
-				CBF649F31C09E51B007D8EA1 /* MidiFileException.h */,
-				CBF649F41C09E51B007D8EA1 /* MidiFileException.m */,
-				CBF649F51C09E51B007D8EA1 /* MidiFileReader.h */,
-				CBF649F61C09E51B007D8EA1 /* MidiFileReader.m */,
-				CBF649F71C09E51B007D8EA1 /* MidiSymbol.swift */,
 				CBF649F81C09E51B007D8EA1 /* MidiTrack.swift */,
+				CBF64A1E1C0B0BA4007D8EA1 /* MidiFileReader.swift */,
+				CBF64A201C0E015E007D8EA1 /* ErrorHandler.swift */,
+				CB5EF6711C140AA1003632C0 /* MidiEvent.swift */,
+				CB5EF6731C16F0B7003632C0 /* MidiFileError.swift */,
 			);
 			path = Midi;
 			sourceTree = "<group>";
@@ -93,8 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF649EA1C09E395007D8EA1 /* MoeMidi.h in Headers */,
-				CBF649FA1C09E51B007D8EA1 /* MidiFileException.h in Headers */,
-				CBF649FC1C09E51B007D8EA1 /* MidiFileReader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF649FF1C09E51B007D8EA1 /* MidiTrack.swift in Sources */,
-				CBF649FE1C09E51B007D8EA1 /* MidiSymbol.swift in Sources */,
-				CBF649FD1C09E51B007D8EA1 /* MidiFileReader.m in Sources */,
-				CBF649FB1C09E51B007D8EA1 /* MidiFileException.m in Sources */,
+				CB5EF6741C16F0B7003632C0 /* MidiFileError.swift in Sources */,
+				CBF64A211C0E015E007D8EA1 /* ErrorHandler.swift in Sources */,
+				CBF64A1F1C0B0BA4007D8EA1 /* MidiFileReader.swift in Sources */,
 				CBF649F91C09E51B007D8EA1 /* MidiFile.swift in Sources */,
+				CB5EF6721C140AA1003632C0 /* MidiEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.MoeMidi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -302,6 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.MoeMidi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

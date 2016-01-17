@@ -1,8 +1,8 @@
 //
-//  MidiSymbol.swift
-//  MidiPlayer_Swift
+//  MidiEvent.swift
+//  MoeMidi
 //
-//  Created by zhou on 15/11/22.
+//  Created by zhou on 15/12/6.
 //  Copyright © 2015年 zhou. All rights reserved.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,25 +25,30 @@
 
 import Foundation
 
-protocol MusicSymbol
+public class MidiEvent
 {
-    var startTime : Int{ get set }
-    var minWidth : Int { get set }
-    var width : Int { get set }
-    var aboveStaff : Int { get set }
-    var belowStaff : Int { get set }
+    public var deltaTime    : Int       = 0
+    public var startTime    : Int       = 0
+    public var hasEventFlag : Bool      = false
+    public var eventFlag    : u_char    = 0
+    public var channel      : u_char    = 0
+    public var noteNumber   : u_char    = 0
+    public var velocity     : u_char    = 0
+    public var instrument   : u_char    = 0
+    public var keyPressure  : u_char    = 0
+    public var chanPressure : u_char    = 0
+    public var controlNum   : u_char    = 0
+    public var controlValue : u_char    = 0
+    public var pitchBend    : u_short   = 0
+    public var numerator    : u_char    = 0
+    public var denominator  : u_char    = 0
+    public var tempo        : Int       = 0
+    public var metaEvent    : u_char    = 0
+    public var metalength   : Int       = 0
+    public var metavalue    : UnsafePointer<u_char> = nil
     
-    func draw(ytop:Int)
+    public init(){
+        
+    }
 }
 
-//public class ChordSymbol : MusicSymbol
-//{
-//    public var clef : Int
-//    
-//    public var endTime : Int
-//    
-//    public var hasTwoStems : Bool
-//    
-//    
-//    
-//}

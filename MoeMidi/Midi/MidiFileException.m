@@ -29,6 +29,14 @@
  * and a string describing the error.
  */
 @implementation MidiFileException
+
+-(id)init:(NSString*)reason offset:(int)off {
+    NSString *s = [NSString stringWithFormat:@"%@ at offset %d", reason, off];
+    self = [super initWithName:@"MidiFileException"
+                                    reason:s userInfo:nil];
+    return self;
+}
+
 +(id)init:(NSString*)reason offset:(int)off {
     NSString *s = [NSString stringWithFormat:@"%@ at offset %d", reason, off];
     MidiFileException *e =

@@ -279,7 +279,7 @@ public extension String {
     }
     
     subscript (r: Range<Int>) -> String {
-        var start = startIndex.advancedBy(r.startIndex),
+        let start = startIndex.advancedBy(r.startIndex),
         end = startIndex.advancedBy(r.endIndex)
         
         return substringWithRange(Range(start: start, end: end))

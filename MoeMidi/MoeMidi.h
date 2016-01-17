@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 //! Project version number for MoeMidi.
 FOUNDATION_EXPORT double MoeMidiVersionNumber;
 
@@ -15,5 +16,3 @@ FOUNDATION_EXPORT double MoeMidiVersionNumber;
 FOUNDATION_EXPORT const unsigned char MoeMidiVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MoeMidi/PublicHeader.h>
-
-

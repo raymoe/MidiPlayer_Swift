@@ -40,6 +40,10 @@
 		CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */; };
 		CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */; };
 		CBF649DB1C09DF6B007D8EA1 /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */; };
+		CBF64A0C1C0AF920007D8EA1 /* MusicSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A0B1C0AF920007D8EA1 /* MusicSymbol.swift */; };
+		CBF64A0E1C0AF985007D8EA1 /* SheetMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A0D1C0AF985007D8EA1 /* SheetMusic.swift */; };
+		CBF64A101C0AFB0B007D8EA1 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A0F1C0AFB0B007D8EA1 /* Staff.swift */; };
+		CBF64A1D1C0B0266007D8EA1 /* MoeMidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF64A1C1C0B0266007D8EA1 /* MoeMidi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +106,10 @@
 		CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoeBase.framework; path = "Build/Products/Debug-iphonesimulator/MoeBase.framework"; sourceTree = "<group>"; };
+		CBF64A0B1C0AF920007D8EA1 /* MusicSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSymbol.swift; sourceTree = "<group>"; };
+		CBF64A0D1C0AF985007D8EA1 /* SheetMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetMusic.swift; sourceTree = "<group>"; };
+		CBF64A0F1C0AFB0B007D8EA1 /* Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		CBF64A1C1C0B0266007D8EA1 /* MoeMidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoeMidi.framework; path = "Build/Products/Debug-iphonesimulator/MoeMidi.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF649DB1C09DF6B007D8EA1 /* MoeBase.framework in Frameworks */,
+				CBF64A1D1C0B0266007D8EA1 /* MoeMidi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +142,7 @@
 		CBF649271C00E0E2007D8EA1 = {
 			isa = PBXGroup;
 			children = (
+				CBF64A1C1C0B0266007D8EA1 /* MoeMidi.framework */,
 				CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */,
 				CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */,
 				CBF649471C00E0E2007D8EA1 /* MidiPlayer_SwiftTests */,
@@ -154,6 +164,7 @@
 		CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CBF64A0B1C0AF920007D8EA1 /* MusicSymbol.swift */,
 				CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */,
 				CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */,
 				CBF649611C00E172007D8EA1 /* Images */,
@@ -164,6 +175,8 @@
 				CBF6493A1C00E0E2007D8EA1 /* Assets.xcassets */,
 				CBF6493C1C00E0E2007D8EA1 /* LaunchScreen.storyboard */,
 				CBF6493F1C00E0E2007D8EA1 /* Info.plist */,
+				CBF64A0D1C0AF985007D8EA1 /* SheetMusic.swift */,
+				CBF64A0F1C0AFB0B007D8EA1 /* Staff.swift */,
 			);
 			path = MidiPlayer_Swift;
 			sourceTree = "<group>";
@@ -377,13 +390,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF64A101C0AFB0B007D8EA1 /* Staff.swift in Sources */,
 				CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */,
 				CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */,
 				CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */,
+				CBF64A0C1C0AF920007D8EA1 /* MusicSymbol.swift in Sources */,
 				CBF649961C00E172007D8EA1 /* RDVTabBar.m in Sources */,
 				CBF649971C00E172007D8EA1 /* RDVTabBarController.m in Sources */,
 				CBF649341C00E0E2007D8EA1 /* AppDelegate.swift in Sources */,
 				CBF649981C00E172007D8EA1 /* RDVTabBarItem.m in Sources */,
+				CBF64A0E1C0AF985007D8EA1 /* SheetMusic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

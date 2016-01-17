@@ -19,6 +19,8 @@
 
 @interface MidiFileException : NSException {
 }
-+(id)init:(NSString*)reason offset:(int)off;
+-(id)init:(NSString*)reason offset:(int)off;
+
+//+(id)init:(NSString*)reason offset:(int)off;
 @end
 

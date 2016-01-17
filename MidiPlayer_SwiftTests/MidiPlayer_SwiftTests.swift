@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import MoeMidi
 @testable import MidiPlayer_Swift
 
 class MidiPlayer_SwiftTests: XCTestCase {
@@ -38,6 +39,27 @@ class MidiPlayer_SwiftTests: XCTestCase {
         list.insert(0, atIndex: m/2)
         print(CFAbsoluteTimeGetCurrent()-t1)
         print(CFAbsoluteTimeGetCurrent()-start)
+    }
+    
+    func testNSData()
+    {
+        let data:NSData? = NSData(contentsOfFile:"/Users/zhou/work/music/adele-chasing_pavements.mid")
+        print(data?.length)
+    }
+    
+    func testInOut()
+    {
+        let event : MidiEvent = MidiEvent()
+        var events = [event]
+        modifyMidiEvent(events)
+        print(event.controlValue)
+    }
+    
+    func modifyMidiEvent(var ev:[MidiEvent])
+    {
+        ev[0].controlValue = 20
+        let event : MidiEvent = MidiEvent()
+        ev.append(event)
     }
     
     func testPerformanceExample() {
