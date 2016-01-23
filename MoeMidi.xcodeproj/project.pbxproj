@@ -12,7 +12,7 @@
 		CBF649EA1C09E395007D8EA1 /* MoeMidi.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF649E91C09E395007D8EA1 /* MoeMidi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF649F91C09E51B007D8EA1 /* MidiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F21C09E51B007D8EA1 /* MidiFile.swift */; };
 		CBF649FF1C09E51B007D8EA1 /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649F81C09E51B007D8EA1 /* MidiTrack.swift */; };
-		CBF64A061C09E5FB007D8EA1 /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF64A051C09E5FB007D8EA1 /* MoeBase.framework */; };
+		CBF64A061C09E5FB007D8EA1 /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF64A051C09E5FB007D8EA1 /* MoeBase.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CBF64A1F1C0B0BA4007D8EA1 /* MidiFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A1E1C0B0BA4007D8EA1 /* MidiFileReader.swift */; };
 		CBF64A211C0E015E007D8EA1 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A201C0E015E007D8EA1 /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
@@ -127,6 +127,7 @@
 				TargetAttributes = {
 					CBF649E51C09E395007D8EA1 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UVRSP523W9;
 					};
 				};
 			};
@@ -266,6 +267,7 @@
 		CBF649EF1C09E395007D8EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -276,6 +278,7 @@
 				);
 				INFOPLIST_FILE = MoeMidi/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.MoeMidi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +290,7 @@
 		CBF649F01C09E395007D8EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -297,6 +301,7 @@
 				);
 				INFOPLIST_FILE = MoeMidi/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.MoeMidi;
 				PRODUCT_NAME = "$(TARGET_NAME)";

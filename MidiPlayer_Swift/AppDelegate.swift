@@ -25,6 +25,7 @@
 import UIKit
 import Swift
 import MoeBase
+import MoeMidi
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -36,6 +37,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        print(FileUtil.getDocumentDir())
+        FileUtil.copyResourceFileToDocumentsDir("mid",path: "MidiFile")
+        
+        //let reader = try MidiFileReader(path: NSURL(fileURLWithPath: FileUtil.getFilePath("adele-chasing_pavements.mid")))
+        do{
+            let midiFilePath = FileUtil.getMidiFilePath("adele_-_Hello.mid")
+            let midifile = try MidiFile(path: midiFilePath)
+            print(midifile)
+        }
+        catch
+        {
+            
+        }
         
         
         // Override point for customization after application launch.

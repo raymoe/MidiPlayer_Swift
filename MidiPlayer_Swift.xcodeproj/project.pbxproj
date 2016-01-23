@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3D93B71C4B8CDA0078E436 /* adele-chasing_pavements.mid in Resources */ = {isa = PBXBuildFile; fileRef = CB3D93B61C4B8CDA0078E436 /* adele-chasing_pavements.mid */; };
+		CB3D93BB1C4B92E50078E436 /* adele-chasing_pavements.mid in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB3D93B61C4B8CDA0078E436 /* adele-chasing_pavements.mid */; };
+		CB3D94E31C50D7090078E436 /* adele_-_Hello.mid in Resources */ = {isa = PBXBuildFile; fileRef = CB3D94E21C50D7090078E436 /* adele_-_Hello.mid */; };
+		CBF0CD0D1C4B44D600A89077 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0CD0C1C4B44D600A89077 /* FileUtil.swift */; };
 		CBF649341C00E0E2007D8EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */; };
 		CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649351C00E0E2007D8EA1 /* ViewController.swift */; };
 		CBF649391C00E0E2007D8EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF649371C00E0E2007D8EA1 /* Main.storyboard */; };
@@ -39,11 +43,13 @@
 		CBF649981C00E172007D8EA1 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6497F1C00E172007D8EA1 /* RDVTabBarItem.m */; };
 		CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */; };
 		CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */; };
-		CBF649DB1C09DF6B007D8EA1 /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */; };
 		CBF64A0C1C0AF920007D8EA1 /* MusicSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A0B1C0AF920007D8EA1 /* MusicSymbol.swift */; };
 		CBF64A0E1C0AF985007D8EA1 /* SheetMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A0D1C0AF985007D8EA1 /* SheetMusic.swift */; };
 		CBF64A101C0AFB0B007D8EA1 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF64A0F1C0AFB0B007D8EA1 /* Staff.swift */; };
-		CBF64A1D1C0B0266007D8EA1 /* MoeMidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF64A1C1C0B0266007D8EA1 /* MoeMidi.framework */; };
+		CBFE0CF51C53202900F2188E /* MoeMidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFE0CF41C53202900F2188E /* MoeMidi.framework */; };
+		CBFE0CF61C53202900F2188E /* MoeMidi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBFE0CF41C53202900F2188E /* MoeMidi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CBFE0CF91C53204000F2188E /* MoeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFE0CF81C53204000F2188E /* MoeBase.framework */; };
+		CBFE0CFA1C53204000F2188E /* MoeBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBFE0CF81C53204000F2188E /* MoeBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +69,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CB3D93BA1C4B92DE0078E436 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				CB3D93BB1C4B92E50078E436 /* adele-chasing_pavements.mid in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CBFE0CF71C53202900F2188E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CBFE0CF61C53202900F2188E /* MoeMidi.framework in Embed Frameworks */,
+				CBFE0CFA1C53204000F2188E /* MoeBase.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CB3D93B61C4B8CDA0078E436 /* adele-chasing_pavements.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "adele-chasing_pavements.mid"; sourceTree = "<group>"; };
+		CB3D94E21C50D7090078E436 /* adele_-_Hello.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "adele_-_Hello.mid"; sourceTree = "<group>"; };
+		CBF0CD0C1C4B44D600A89077 /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
 		CBF649301C00E0E2007D8EA1 /* MidiPlayer_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiPlayer_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF649331C00E0E2007D8EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF649351C00E0E2007D8EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +144,8 @@
 		CBF64A0D1C0AF985007D8EA1 /* SheetMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetMusic.swift; sourceTree = "<group>"; };
 		CBF64A0F1C0AFB0B007D8EA1 /* Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
 		CBF64A1C1C0B0266007D8EA1 /* MoeMidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoeMidi.framework; path = "Build/Products/Debug-iphonesimulator/MoeMidi.framework"; sourceTree = "<group>"; };
+		CBFE0CF41C53202900F2188E /* MoeMidi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MoeMidi.framework; path = "/Users/zhou/git/MidiPlayer_Swift/Build/Products/Debug-iphoneos/MoeMidi.framework"; sourceTree = "<absolute>"; };
+		CBFE0CF81C53204000F2188E /* MoeBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MoeBase.framework; path = "/Users/zhou/git/MidiPlayer_Swift/Build/Products/Debug-iphoneos/MoeBase.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF649DB1C09DF6B007D8EA1 /* MoeBase.framework in Frameworks */,
-				CBF64A1D1C0B0266007D8EA1 /* MoeMidi.framework in Frameworks */,
+				CBFE0CF51C53202900F2188E /* MoeMidi.framework in Frameworks */,
+				CBFE0CF91C53204000F2188E /* MoeBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +175,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB3D93B51C4B8C870078E436 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D94E21C50D7090078E436 /* adele_-_Hello.mid */,
+				CB3D93B61C4B8CDA0078E436 /* adele-chasing_pavements.mid */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
 		CBF649271C00E0E2007D8EA1 = {
 			isa = PBXGroup;
 			children = (
+				CBFE0CF81C53204000F2188E /* MoeBase.framework */,
+				CBFE0CF41C53202900F2188E /* MoeMidi.framework */,
 				CBF64A1C1C0B0266007D8EA1 /* MoeMidi.framework */,
 				CBF649DA1C09DF6B007D8EA1 /* MoeBase.framework */,
 				CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */,
@@ -164,6 +211,7 @@
 		CBF649321C00E0E2007D8EA1 /* MidiPlayer_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CB3D93B51C4B8C870078E436 /* Documents */,
 				CBF64A0B1C0AF920007D8EA1 /* MusicSymbol.swift */,
 				CBF649991C00E1D8007D8EA1 /* FirstViewController.swift */,
 				CBF6499A1C00E1D8007D8EA1 /* SecondViewController.swift */,
@@ -177,6 +225,7 @@
 				CBF6493F1C00E0E2007D8EA1 /* Info.plist */,
 				CBF64A0D1C0AF985007D8EA1 /* SheetMusic.swift */,
 				CBF64A0F1C0AFB0B007D8EA1 /* Staff.swift */,
+				CBF0CD0C1C4B44D600A89077 /* FileUtil.swift */,
 			);
 			path = MidiPlayer_Swift;
 			sourceTree = "<group>";
@@ -249,6 +298,8 @@
 				CBF6492C1C00E0E2007D8EA1 /* Sources */,
 				CBF6492D1C00E0E2007D8EA1 /* Frameworks */,
 				CBF6492E1C00E0E2007D8EA1 /* Resources */,
+				CB3D93BA1C4B92DE0078E436 /* CopyFiles */,
+				CBFE0CF71C53202900F2188E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +358,7 @@
 				TargetAttributes = {
 					CBF6492F1C00E0E2007D8EA1 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UVRSP523W9;
 					};
 					CBF649431C00E0E2007D8EA1 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -345,6 +397,8 @@
 			files = (
 				CBF6498A1C00E172007D8EA1 /* second_selected.png in Resources */,
 				CBF6498B1C00E172007D8EA1 /* second_selected@2x.png in Resources */,
+				CB3D93B71C4B8CDA0078E436 /* adele-chasing_pavements.mid in Resources */,
+				CB3D94E31C50D7090078E436 /* adele_-_Hello.mid in Resources */,
 				CBF649901C00E172007D8EA1 /* third_normal.png in Resources */,
 				CBF6498F1C00E172007D8EA1 /* tabbar_selected_background@2x.png in Resources */,
 				CBF6498E1C00E172007D8EA1 /* tabbar_selected_background.png in Resources */,
@@ -393,6 +447,7 @@
 				CBF64A101C0AFB0B007D8EA1 /* Staff.swift in Sources */,
 				CBF649361C00E0E2007D8EA1 /* ViewController.swift in Sources */,
 				CBF6499C1C00E1D8007D8EA1 /* SecondViewController.swift in Sources */,
+				CBF0CD0D1C4B44D600A89077 /* FileUtil.swift in Sources */,
 				CBF6499B1C00E1D8007D8EA1 /* FirstViewController.swift in Sources */,
 				CBF64A0C1C0AF920007D8EA1 /* MusicSymbol.swift in Sources */,
 				CBF649961C00E172007D8EA1 /* RDVTabBar.m in Sources */,
@@ -541,11 +596,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = MidiPlayer_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,11 +615,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = MidiPlayer_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhou.MidiPlayer-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";

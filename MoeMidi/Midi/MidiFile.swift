@@ -747,7 +747,7 @@ public class MidiFile
         var starttime = 0
         
         let hdr = try file.readAscii(4)
-        if(strncmp(hdr, "MThd", 4) != 0){
+        if(strncmp(hdr, "MTrk", 4) != 0){
             //throw MidiFileException("Bad MThd header", offset: 0)
             ErrorHandler.error("Bad MTrk header", offset: file.offset - 4)
             throw MidiFileError.Error
@@ -787,7 +787,7 @@ public class MidiFile
                 mevent.noteNumber = try file.readByte()
                 mevent.velocity = try file.readByte()
             }
-            else if(eventflag > EventNoteOff && eventflag < EventNoteOff+16){
+            else if(eventflag >= EventNoteOff && eventflag < EventNoteOff+16){
                 mevent.eventFlag = EventNoteOff
                 mevent.channel = eventflag - EventNoteOff
                 mevent.noteNumber = try file.readByte()
@@ -865,7 +865,7 @@ public class MidiFile
                         throw MidiFileError.Error
                     }
                     let value = mevent.metavalue;
-                    mevent.tempo = (Int)((value[0] << 16) | (value[1] << 8) | value[2]);
+                    mevent.tempo = (Int(value[0]) << 16 | Int(value[1]) << 8 | Int(value[2]));
                 }
                 else if (mevent.metaEvent == MetaEventEndOfTrack) {
                     //[mevent release];

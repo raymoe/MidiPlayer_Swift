@@ -96,7 +96,7 @@ public class MidiFileReader{
     public func readShort() throws -> u_short
     {
         try checkRead(2)
-        let x:u_short = (u_short)((_bytes[_parseOffset] << 8) | _bytes[_parseOffset+1])
+        let x:u_short = (u_short)(u_short(_bytes[_parseOffset]) << 8 | u_short(_bytes[_parseOffset+1]))
         _parseOffset += 2
         return x
     }
@@ -104,10 +104,10 @@ public class MidiFileReader{
     public func readInt() throws -> Int
     {
         try checkRead(4)
-        let x = (Int)((_bytes[_parseOffset]<<24) |
-                          (_bytes[_parseOffset+1]<<16) |
-                          (_bytes[_parseOffset+2]<<8) |
-                          (_bytes[_parseOffset+3])
+        let x = (Int)(Int(_bytes[_parseOffset])<<24 |
+                          Int(_bytes[_parseOffset+1])<<16 |
+                          Int(_bytes[_parseOffset+2])<<8 |
+                          Int(_bytes[_parseOffset+3])
             )
         _parseOffset += 4
         return x
@@ -118,6 +118,8 @@ public class MidiFileReader{
         try checkRead(len)
         let result = (malloc(sizeof(UInt8)*len))
         _data?.getBytes(result, range: NSRange(location: _parseOffset,length: len))
+        var arr = [Int8](count: len, repeatedValue: 0)
+        _data?.getBytes(&arr,range:NSRange(location: _parseOffset,length: len))
         _parseOffset += len
         return UnsafePointer<Int8>(result)
     }

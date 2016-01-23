@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MidiPlayer_Swift/AppDelegate.swift"
-            timestampString = "470409664.492832"
+            timestampString = "475209453.665396"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "setupViewControllers()"
             landmarkType = "5">
          </BreakpointContent>

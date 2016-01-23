@@ -69,4 +69,11 @@ class MidiPlayer_SwiftTests: XCTestCase {
         }
     }
     
+    func testIO()
+    {
+        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        let documentsDirectory = paths[0]
+        print(documentsDirectory)
+    }
+    
 }
